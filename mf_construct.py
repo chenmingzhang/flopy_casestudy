@@ -22,6 +22,7 @@ nper = 1  # a single value
 perlen =[100]  # in days i guess
 nstp = [100]
 steady=[True]
+modelname='gelita'
 
 ## get the surface elevation from 2D interpolation
 
@@ -48,7 +49,7 @@ model_ws = os.path.join('.', 'data')
 #ms = flopy.modflow.Modflow()
 #ms = flopy.modflow.Modflow(model_ws=model_ws, modelname='mfusg',exe_name='mf2005')
 # model_ws is the director that the results stores
-ms = flopy.modflow.Modflow(modelname='mfusg',exe_name='mf2005')
+ms = flopy.modflow.Modflow(modelname=modelname,exe_name='mf2005')
 
 #dis = flopy.modflow.ModflowDis(ms, nlay=nlay, nrow=nrow, ncol=ncol, delr=delr,
 #                                       delc=delc, top=top, botm=botm)
@@ -81,8 +82,9 @@ plt.show(block=False)
 g = Gridgen(dis, model_ws=model_ws)
 
 g.build()
-disu = g.get_disu(ms)   # g.nodes will be assigned only when this line is executed
+#disu = g.get_disu(ms)   # g.nodes will be assigned only when this line is executed
 # i have to mannually remove 
+# instead of using g.nodes, i am now using ncol*nrow to replace all g.nodes
 adriver = [[data['river_points_xy_ay']]]   # why three layers is required?
 ad_eastern_region=[[data['eastern_region_points_xy_ay']]]
 
@@ -117,7 +119,7 @@ print(ad_eastern_region_intersect.dtype.names)
 #plt.show(block=False)
 
 
-ibound_ay=np.zeros((g.nodes), dtype=np.int)+3  # active cell
+ibound_ay=np.zeros((ncol*nrow), dtype=np.int)+3  # active cell
 ibound_ay[ad_eastern_region_intersect.nodenumber]=0 # ibound==0 inactive cell
 ibound_ay[adriver_intersect.nodenumber]=-1   #ibound<0 constant head
 ibound_mtx=ibound_ay.reshape(nrow,ncol)
@@ -130,7 +132,7 @@ mm.plot_grid()
 fig.show()
 
 
-a = np.zeros((g.nodes), dtype=np.int)
+a = np.zeros((ncol*nrow), dtype=np.int)
 a[ad_eastern_region_intersect.nodenumber]=1
 a[adriver_intersect.nodenumber]=2
 fig = plt.figure(figsize=(15, 15))

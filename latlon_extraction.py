@@ -173,6 +173,7 @@ fig.colorbar(surf, shrink=0.5, aspect=5)
 plt.show(block=False)
 ax.set_xlabel('X (m)')
 ax.set_ylabel('Y (m)')
+ax.set_zlabel('ELEVATION (m)')
 
 
 # below shows the contour plot
