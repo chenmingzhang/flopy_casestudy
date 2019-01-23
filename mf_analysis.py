@@ -29,7 +29,8 @@ ax = fig.add_subplot(1, 1, 1)
 #
 
 
-head = headobj.get_data(totim=mytimes[0])
+#head = headobj.get_data(totim=mytimes[0])
+head = headobj.get_data()
 head[head==-999.99]=np.nan
 
 fig = plt.figure(figsize=(5,5))
@@ -68,5 +69,4 @@ head1d=head.ravel()
 print recharge*365.,'m/year',head1d[ad_borehole_intersect.nodenumber]
 
 
-hds = headobj.get_data(kstpkper=(50, 0))
-
+#hds = headobj.get_data(kstpkper=(50, 0)) 

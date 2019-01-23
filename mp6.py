@@ -8,8 +8,8 @@ mp = flopy.modpath.Modpath(modelname='ex6',
 
 
 #mpb = flopy.modpath.ModpathBas(mp, hdry=ms.lpf.hdry, laytyp=ms.lpf.laytyp, ibound=1, prsity=0.1)
-#mpb = flopy.modpath.ModpathBas(mp, hdry=ms.lpf.hdry, laytyp=ms.lpf.laytyp, ibound=ibound_mtx, prsity=sy)
-mpb = flopy.modpath.ModpathBas(mp, hdry=ms.lpf.hdry, laytyp=ms.lpf.laytyp, ibound=3, prsity=sy)
+mpb = flopy.modpath.ModpathBas(mp, hdry=ms.lpf.hdry, laytyp=ms.lpf.laytyp, ibound=ibound_mtx, prsity=sy)
+#mpb = flopy.modpath.ModpathBas(mp, hdry=ms.lpf.hdry, laytyp=ms.lpf.laytyp, ibound=3, prsity=sy)
 
 
 #hdry is the head assiged to dry cell
@@ -22,6 +22,7 @@ sim = mp.create_mpsim(trackdir='forward', simtype='pathline', packages='RCH')#, 
 
 
 
+mp.write_input()
 mp.run_model(silent=False)
 
 fpth = os.path.join('ex6.mpend')
@@ -29,7 +30,10 @@ epobj = flopy.utils.EndpointFile(fpth)
 #well_epd = epobj.get_destination_endpoint_data(dest_cells=[(0, 99, 4)])
 #well_epd = epobj.get_destination_endpoint_data(dest_cells=[(0, 4, 99)])
 #well_epd = epobj.get_destination_endpoint_data(dest_cells=[(0, 4, 99)])
-well_epd = epobj.get_destination_endpoint_data(dest_cells=[(0, 1, 6)])
+#well_epd = epobj.get_destination_endpoint_data(dest_cells=[(0, 1, 6)])
+well_epd = epobj.get_destination_endpoint_data(dest_cells=[(0, 99, 3)])
+#well_epd = epobj.get_destination_endpoint_data(dest_cells=[(0, 8, 98)])
+
 #
 #epobj.get_alldata()
 #well_epd = epobj.get_data(partid=1)
@@ -40,9 +44,6 @@ well_epd = epobj.get_destination_endpoint_data(dest_cells=[(0, 1, 6)])
 #rec.array([(  1, 0, 2, 0., 412355.1, 1, 0,  0, 1, 6, 0, 0.5, 0.5, 1., 22.53539, 1018.425, 43.4204, 1, 0, 81, 28, 1, 0, 0., 0.8193251, 0.999, 420.6605, 192.6241, 40.81913, 'rch')],
 
 
-
-
-mp.write_input()
 fig = plt.figure(figsize=(8, 8))
 ax = fig.add_subplot(1, 1, 1, aspect='equal')
 fpth = os.path.join('ex6.mpend')
@@ -62,4 +63,22 @@ epobj.write_shapefile(well_epd, direction='starting', shpname=fpth, sr=ms.sr)
 pthobj = flopy.utils.PathlineFile(os.path.join('ex6.mppth'))
 
 
+well_pathlines = pthobj.get_destination_pathline_data(dest_cells=[(0, 50, 50)])
+well_pathlines = pthobj.get_destination_pathline_data(dest_cells=[(0, 20, 20)])
+
+
+well_pathlines = pthobj.get_destination_pathline_data(dest_cells=[(0, 80, 0)]) 
+well_pathlines = pthobj.get_destination_pathline_data(dest_cells=[(0, 0,80)])  # (lay, row, colomn) 
+# it shows all the paths lines that goes through this point
+fig = plt.figure(figsize=(8, 8))
+ax = fig.add_subplot(1, 1, 1, aspect='equal')
+modelmap = flopy.plot.ModelMap(model=ms, layer=0)
+quadmesh = modelmap.plot_ibound()
+linecollection = modelmap.plot_grid()
+#riv = modelmap.plot_bc('RIV', color='g', plotAll=True)
+#quadmesh = modelmap.plot_bc('WEL', kper=1, plotAll=True)
+contour_set = modelmap.contour_array(hds,levels=np.arange(np.min(hds),np.max(hds),0.5), colors='b')
+plt.clabel(contour_set, inline=1, fontsize=14)
+modelmap.plot_pathline(well_pathlines, layer='all', colors='red');
+fig.show()
 
