@@ -57,6 +57,21 @@ data['x_mtx'],data['y_mtx']=np.meshgrid(data['x_ay'],data['y_ay'])
 data['z_mtx']=np.zeros([data['no_lat_x_discretisation'],data['no_lon_y_discretisation']])
 
 
+
+
+for i,key in enumerate(data['borehole']):
+    print i,key
+    data['borehole'][key]['lat_float']=float(data['borehole'][key]['lat'])
+    data['borehole'][key]['lon_float']=float(data['borehole'][key]['lon'])
+    xy=constants.latlon_two_ponts_to_delta_xy_m( (data['latlon']['b1']['lat_float'],data['latlon']['b1']['lon_float']), \
+            (data['borehole'][key]['lat_float'],data['borehole'][key]['lon_float']) )
+    data['borehole'][key]['x']=xy[0]
+    data['borehole'][key]['y']=xy[1]
+
+
+
+
+
 river_latlon_ay= [x.strip() for x in data['river'].split(' ')]
 no_river_points=len(river_latlon_ay)
 

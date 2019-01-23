@@ -10,8 +10,8 @@ delr = Lx / ncol
 delc = Ly / nrow
 h0 = 10
 h1 = 5
-hk=10
-vka=10
+hk=0.432
+vka=0.432
 sy=0.20
 ss=0.0001
 top = h0
@@ -23,32 +23,11 @@ perlen =[100]  # in days i guess
 nstp = [100]
 steady=[True]
 modelname='gelita'
+recharge=0.0002
 
 ## get the surface elevation from 2D interpolation
 
 model_ws = os.path.join('.', 'data')
-#dis.sr.xcentergrid
-#dis.sr.ycentergrid
-#dis.sr.xgrid
-#dis.sr.ygrid
-#np.ma.masked_equal(dis.sr.ygrid,1000) # very useful command to find specific file locations
-#modelmap.sr.vertices
-#flopy.plot.plotutil.cell_value_points
-#
-#
-#modelxsect = flopy.plot.ModelCrossSection(model=mf, line={'Row': 0})
-#modelxsect.elev
-#
-#modelxsect.dis
-#modelxsect.xpts
-#modelxsect.xcentergrid
-#modelxsect.zcentergrid
-
-# we first creat the model to get meshgrid, then do it again
-#ms = flopy.modflow.Modflow(rotation=-20.)
-#ms = flopy.modflow.Modflow()
-#ms = flopy.modflow.Modflow(model_ws=model_ws, modelname='mfusg',exe_name='mf2005')
-# model_ws is the director that the results stores
 ms = flopy.modflow.Modflow(modelname=modelname,exe_name='mf2005')
 
 #dis = flopy.modflow.ModflowDis(ms, nlay=nlay, nrow=nrow, ncol=ncol, delr=delr,
@@ -67,14 +46,14 @@ f = interpolate.interp2d(data['x_ay'], data['y_ay'], data['z_mtx'], kind='cubic'
 top_elev= f(dis.sr.xcenter,dis.sr.ycenter[::-1])
 
 
-fig=plt.figure
-plt.contourf(dis.sr.xcenter,dis.sr.ycenter[::-1],top_elev)
-plt.show(block=False)
-
-fig=plt.figure
-plt.contourf(data['x_mtx'], data['y_mtx'], data['z_mtx'])
-plt.show(block=False)
-
+#fig=plt.figure
+#plt.contourf(dis.sr.xcenter,dis.sr.ycenter[::-1],top_elev)
+#plt.show(block=False)
+#
+#fig=plt.figure
+#plt.contourf(data['x_mtx'], data['y_mtx'], data['z_mtx'])
+#plt.show(block=False)
+#
 
 
 
@@ -87,14 +66,17 @@ g.build()
 # instead of using g.nodes, i am now using ncol*nrow to replace all g.nodes
 adriver = [[data['river_points_xy_ay']]]   # why three layers is required?
 ad_eastern_region=[[data['eastern_region_points_xy_ay']]]
+ad_borehole_loc=[ ( data['borehole']['12']['x'], data['borehole']['12']['y']   )  ]
 
 adriver_intersect = g.intersect(adriver, 'line', 0)
 ad_eastern_region_intersect = g.intersect(ad_eastern_region, 'polygon', 0)
+ad_borehole_intersect = g.intersect(ad_borehole_loc, 'point', 0)
 
 rivershp = os.path.join(model_ws, 'river1')
 
 print(adriver_intersect.dtype.names)
 print(ad_eastern_region_intersect.dtype.names)
+print(ad_borehole_intersect)
 
 #ibound_ay=np.ones(nrow*ncol)
 #
@@ -122,6 +104,7 @@ print(ad_eastern_region_intersect.dtype.names)
 ibound_ay=np.zeros((ncol*nrow), dtype=np.int)+3  # active cell
 ibound_ay[ad_eastern_region_intersect.nodenumber]=0 # ibound==0 inactive cell
 ibound_ay[adriver_intersect.nodenumber]=-1   #ibound<0 constant head
+ibound_ay[ad_borehole_intersect.nodenumber]=5 
 ibound_mtx=ibound_ay.reshape(nrow,ncol)
 
 fig = plt.figure(figsize=(15, 15))
@@ -135,6 +118,7 @@ fig.show()
 a = np.zeros((ncol*nrow), dtype=np.int)
 a[ad_eastern_region_intersect.nodenumber]=1
 a[adriver_intersect.nodenumber]=2
+a[ad_borehole_intersect.nodenumber]=3
 fig = plt.figure(figsize=(15, 15))
 ax = fig.add_subplot(1, 1, 1, aspect='equal')
 g.plot(ax, a=a, masked_values=[0], edgecolor='none', cmap='jet')
@@ -182,7 +166,7 @@ fig.show()
 stress_period_data = {}
 for kper in np.arange(nper):
     for kstp in np.arange(nstp[kper]):
-        if np.mod(kstp,50)==0:
+        if np.mod(kstp,1)==0:
             stress_period_data[(kper, kstp)] = ['save head',
                                                 'save drawdown',
                                                 'save budget',
@@ -190,7 +174,7 @@ for kper in np.arange(nper):
                                                 'print budget']
 oc = flopy.modflow.ModflowOc(ms, stress_period_data=stress_period_data,compact=True)
 
-rch=flopy.modflow.ModflowRch(ms,rech=0.0001)
+rch=flopy.modflow.ModflowRch(ms,rech=recharge)
 
 ms.write_input()
 
@@ -201,5 +185,5 @@ if not success:
         raise Exception('MODFLOW did not terminate normally.')
 
 
-
+#ms.get_package_list()
 
