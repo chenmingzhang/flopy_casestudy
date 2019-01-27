@@ -1,4 +1,4 @@
-
+#os.remove('gelita.hds')
 # if one uses add_refinement_featurs a shape file will be produced
 # setting up modflow model
 Lx = data['x_range']
@@ -8,10 +8,12 @@ nrow = 100
 ncol = 100
 delr = Lx / ncol
 delc = Ly / nrow
-h0 = 10
+h0 = 80
 h1 = 5
-hk=10
-vka=10
+#hk=10
+#vka=10
+hk=0.1
+vka=0.1
 sy=0.20
 ss=0.0001
 top = h0
@@ -20,9 +22,12 @@ botm[0, :, :] = -10.
 laytyp = np.ones(nlay) 
 nper = 1  # a single value
 perlen =[20000]  # in days i guess
+#perlen =[200]  # in days i guess
 nstp = [10]
 steady=[True]
 modelname='gelita'
+recharge=0.0001 # get data close to 
+#recharge=0.01
 
 ## get the surface elevation from 2D interpolation
 
@@ -67,14 +72,14 @@ f = interpolate.interp2d(data['x_ay'], data['y_ay'], data['z_mtx'], kind='cubic'
 top_elev= f(dis.sr.xcenter,dis.sr.ycenter[::-1])
 
 
-fig=plt.figure
-plt.contourf(dis.sr.xcenter,dis.sr.ycenter[::-1],top_elev)
-plt.show(block=False)
-
-fig=plt.figure
-plt.contourf(data['x_mtx'], data['y_mtx'], data['z_mtx'])
-plt.show(block=False)
-
+#fig=plt.figure
+#plt.contourf(dis.sr.xcenter,dis.sr.ycenter[::-1],top_elev)
+#plt.show(block=False)
+#
+#fig=plt.figure
+#plt.contourf(data['x_mtx'], data['y_mtx'], data['z_mtx'])
+#plt.show(block=False)
+#
 
 
 
@@ -87,9 +92,11 @@ g.build()
 # instead of using g.nodes, i am now using ncol*nrow to replace all g.nodes
 adriver = [[data['river_points_xy_ay']]]   # why three layers is required?
 ad_eastern_region=[[data['eastern_region_points_xy_ay']]]
+ad_borehole_loc=[ ( data['borehole']['12']['x'], data['borehole']['12']['y']   )  ]
 
 adriver_intersect = g.intersect(adriver, 'line', 0)
 ad_eastern_region_intersect = g.intersect(ad_eastern_region, 'polygon', 0)
+ad_borehole_intersect = g.intersect(ad_borehole_loc, 'point', 0)
 
 rivershp = os.path.join(model_ws, 'river1')
 
@@ -122,6 +129,7 @@ print(ad_eastern_region_intersect.dtype.names)
 ibound_ay=np.zeros((ncol*nrow), dtype=np.int)+3  # active cell
 ibound_ay[ad_eastern_region_intersect.nodenumber]=0 # ibound==0 inactive cell
 ibound_ay[adriver_intersect.nodenumber]=-1   #ibound<0 constant head
+ibound_ay[ad_borehole_intersect.nodenumber]=5 
 ibound_mtx=ibound_ay.reshape(nrow,ncol)
 
 fig = plt.figure(figsize=(15, 15))
@@ -129,6 +137,8 @@ ax = fig.add_subplot(1, 1, 1, aspect='equal')
 g.plot(ax, a=ibound_ay, masked_values=[0], edgecolor='none', cmap='jet')
 mm = flopy.plot.ModelMap(model=ms)
 mm.plot_grid()
+ax.set_xlabel('X (m)')
+ax.set_ylabel('Y (m)')
 fig.show()
 
 
@@ -140,6 +150,8 @@ ax = fig.add_subplot(1, 1, 1, aspect='equal')
 g.plot(ax, a=a, masked_values=[0], edgecolor='none', cmap='jet')
 mm = flopy.plot.ModelMap(model=ms)
 mm.plot_grid()
+ax.set_xlabel('X (m)')
+ax.set_ylabel('Y (m)')
 fig.show()
 
 
@@ -174,6 +186,8 @@ ax = fig.add_subplot(1, 1, 1, aspect='equal')
 modelmap = flopy.plot.ModelMap(model=ms,rotation=0)  #suggested by flopy3_MapExample.ipynb
 linecollection = modelmap.plot_grid()  # this line is the plotting line
 quadmesh = modelmap.plot_ibound()  # a useful command to check all the ibounds
+ax.set_xlabel('X (m)')
+ax.set_ylabel('Y (m)')
 fig.show()
 
 
@@ -190,7 +204,7 @@ for kper in np.arange(nper):
                                                 'print budget']
 oc = flopy.modflow.ModflowOc(ms, stress_period_data=stress_period_data,compact=True)
 
-rch=flopy.modflow.ModflowRch(ms,rech=0.0001)
+rch=flopy.modflow.ModflowRch(ms,rech=recharge)
 
 ms.write_input()
 

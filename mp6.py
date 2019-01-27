@@ -1,4 +1,4 @@
-mp = flopy.modpath.Modpath(modelname='ex6',
+hdmp = flopy.modpath.Modpath(modelname='ex6',
                            exe_name='mp6',
                            modflowmodel=ms,
                            dis_file=ms.name+'.dis',
@@ -42,8 +42,9 @@ well_epd = epobj.get_destination_endpoint_data(dest_cells=[(0, 99, 3)])
 #           ( 76, 0, 2, 0., 22285.47, 1, 0,  3, 1, 6, 0, 0.5, 0.5, 1.,  600., 8600., 339.0849, 1, 4, 12, 12, 2, 0, 1.        , 0.90018   , 0.3697533 , 5200.   , 5160.072,  36.97533 , 'rch'),
 #1,0,2 is the location
 #rec.array([(  1, 0, 2, 0., 412355.1, 1, 0,  0, 1, 6, 0, 0.5, 0.5, 1., 22.53539, 1018.425, 43.4204, 1, 0, 81, 28, 1, 0, 0., 0.8193251, 0.999, 420.6605, 192.6241, 40.81913, 'rch')],
-
-
+hdsfile = flopy.utils.HeadFile('gelita.hds')
+hdsfile.get_kstpkper()
+hds = hdsfile.get_data(kstpkper=(9, 0))
 fig = plt.figure(figsize=(8, 8))
 ax = fig.add_subplot(1, 1, 1, aspect='equal')
 fpth = os.path.join('ex6.mpend')
