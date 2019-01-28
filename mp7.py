@@ -1,6 +1,18 @@
 
 import matplotlib as mpl
 
+
+# delete files if they exist
+def purge_file(filenames):
+    for filename in filenames:
+        try:
+                os.remove(filename)
+        except OSError:
+                print filename+' is not exist'
+
+purge_file(['gelitaa_mp.mpbas','gelitaa_mp.mpend','gelitaa_mp.mplst','gelitaa_mp.mpnam', \
+        'gelitaa_mp.mppth','gelitaa_mp.mpsim','gelitaa_mp.sloc','gelitaa_mp.timeseries'])
+
 model_name=modelname
 mp_namea = model_name + 'a_mp'
 mp_nameb = model_name + 'b_mp'
@@ -24,19 +36,28 @@ pcoord = np.array([[0.000, 0.125, 0.500],
 #plocs = [nodew for i in range(pcoord.shape[0])]
 
 #plocs=np.ones(16)+10   np array is not working
-nodew=50
-plocs=[50]*16   # list is fine
-nodew=1000
-plocs=[1000]*16   # list is fine
-# create particle data
-pa = flopy.modpath.ParticleData(plocs, structured=False,
-                                localx=pcoord[:, 0],
-                                localy=pcoord[:, 1],
-                                localz=pcoord[:, 2],
-                                drape=0)
+# ----------------below works------------
+#nodew=50
+#plocs=[50]*16   # list is fine
+#nodew=1000
+#plocs=[1000]*16   # list is fine
+## create particle data
+#plocs = [(0, 0, 0), (0, 0, 1), (0, 0, 2)]
+#pa = flopy.modpath.ParticleData(plocs, structured=False,
+#                                localx=pcoord[:, 0],
+#                                localy=pcoord[:, 1],
+#                                localz=pcoord[:, 2],
+#                                drape=0)
+# ----------------above works------------
+plocs=[]
+for i in np.arange(5):
+    for j in np.arange(5):
+        plocs.append((0,i*20,j*20))
 # what is plocs?
 # plocs  --  Particle locations (zero-based) that are either layer, row, column locations or nodes.
 # Local x-location of the particle in the cell. If a single value is provided all particles will have the same localx position. If a list, tuple, or np.ndarray is provided a localx position must be provided for each partloc. If localx is None, a value of 0.5 (center of the cell) will be used (default is None).
+pa = flopy.modpath.ParticleData(plocs, structured=True, drape=0, \
+                                        localx=0.5, localy=0.5, localz=0.5)
 
 # create backward particle group
 fpth = mp_namea + '.sloc'
@@ -49,27 +70,37 @@ facedata = flopy.modpath.FaceDataType(drape=0,
                                       verticaldivisions4=10, horizontaldivisions4=10,
                                       rowdivisions5=0, columndivisons5=0,
                                       rowdivisions6=4, columndivisions6=4)
-pb = flopy.modpath.NodeParticleData(subdivisiondata=facedata, nodes=nodew)
+#pb = flopy.modpath.NodeParticleData(subdivisiondata=facedata, nodes=nodew)
+pb = flopy.modpath.NodeParticleData(subdivisiondata=facedata, nodes=plocs)
 # create forward particle group
-fpth = mp_nameb + '.sloc'
-pgb = flopy.modpath.ParticleGroupNodeTemplate(particlegroupname='BACKWARD2', 
-                                              particledata=pb,
-                                              filename=fpth)
+#fpth = mp_nameb + '.sloc'
+#pgb = flopy.modpath.ParticleGroupNodeTemplate(particlegroupname='BACKWARD2', 
+#                                              particledata=pb,
+#                                              filename=fpth)
 
 
 # create modpath files
 mp = flopy.modpath.Modpath7(modelname=mp_namea, flowmodel=ms,
                             exe_name='mp7', model_ws='.')
-flopy.modpath.Modpath7Bas(mp, porosity=0.1)
+flopy.modpath.Modpath7Bas(mp, porosity=0.2)
 flopy.modpath.Modpath7Sim(mp, simulationtype='combined',
                           trackingdirection='backward',
                           weaksinkoption='pass_through',
                           weaksourceoption='pass_through',
                           referencetime=0.,
                           stoptimeoption='extend',
-                          timepointdata=[500, 1000.],
+                          timepointdata=[10, 10000.],
                           particlegroups=pga)
-
+# timepointdata ---------
+#List or tuple with 2 items that is only used if simulationtype is ‘timeseries’ or ‘combined’. 
+#If the second item is a float then the timepoint data corresponds to time point option 1 and 
+#the first entry is the number of time points (timepointcount) and 
+#the second entry is the time point interval. If the second item is a list, tuple, 
+#or np.ndarray then the timepoint data corresponds to time point option 
+#2 and the number of time points entries (timepointcount) in the second item and 
+#the second item is an list, tuple, or array of user-defined time points. 
+#If Timepointdata is None, time point option 1 is specified and the total simulation time is split into 100 intervals (default is None).
+# seems to me that combined does time series
 # write modpath datasets
 mp.write_input()
 
@@ -80,8 +111,6 @@ model_ws='.'
 fpth = os.path.join(model_ws, mp_namea + '.mppth')
 p = flopy.utils.PathlineFile(fpth)
 p0 = p.get_alldata()
-
-
 
 fpth = os.path.join(model_ws, mp_namea + '.timeseries')
 ts = flopy.utils.TimeseriesFile(fpth)
@@ -103,12 +132,11 @@ quadmesh = modelmap.plot_ibound()
 mm = flopy.plot.ModelMap(sr=dis.sr, ax=ax)
 cmap = mpl.colors.ListedColormap(['r','g',])
 #v = mm.plot_cvfd(verts, iverts, edgecolor='gray', a=ibd, cmap=cmap)
+colors = ['green', 'orange', 'red']
+for k in range(nlay):
+       mm.plot_timeseries(ts0, layer=k, marker='o', lw=0, color=colors[k]);
 mm.plot_pathline(p0, layer='all', color='blue', lw=0.75)
 fig.show()
-#colors = ['green', 'orange', 'red']
-#for k in range(nlay):
-#        mm.plot_timeseries(ts0, layer=k, marker='o', lw=0, color=colors[k]);
-#fig.show()
 
 
 
