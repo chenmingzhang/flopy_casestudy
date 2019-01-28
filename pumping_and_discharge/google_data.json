@@ -1,0 +1,4082 @@
+{
+    "0": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 55.9040412902832, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.17028427124023, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.02779006958008, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.57700729370117, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.99161529541016, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.92262649536133, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 55.62042999267578, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.82115936279297, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.07401657104492, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.06013107299805, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.037841796875, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.07737350463867, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.0557861328125, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.83408355712891, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0282361111,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 57.26877593994141, 
+                        "location": {
+                            "lat": -28.0282361111, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.0282361111, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "1": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 58.1706657409668, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.37364959716797, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.9158821105957, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.95632934570312, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.88341903686523, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.13947677612305, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.18371963500977, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.31365203857422, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.31345748901367, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.01925659179688, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.45114898681641, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 49.36630249023438, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.832763671875, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0275763889,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 60.3819694519043, 
+                        "location": {
+                            "lat": -28.0275763889, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.027576388878572, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "2": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 59.61686706542969, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.57712554931641, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.09145355224609, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.99534225463867, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.55885696411133, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.18038940429688, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.02768707275391, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 50.31158447265625, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.19242095947266, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.87892532348633, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.27890777587891, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.51068878173828, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 49.02158737182617, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.09166717529297, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0269166667,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 60.78370666503906, 
+                        "location": {
+                            "lat": -28.0269166667, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026916666657144, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "3": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 60.49213027954102, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 57.9160270690918, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 55.77414703369141, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.73883438110352, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.73889923095703, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.5171012878418, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.36041259765625, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 50.80499649047852, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.84838485717773, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.80499649047852, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.49335098266602, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.51068878173828, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 49.02158737182617, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.36821365356445, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0262569444,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 60.42473602294922, 
+                        "location": {
+                            "lat": -28.0262569444, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.026256944435715, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "4": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 60.02028274536133, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 58.09291076660156, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 57.12494277954102, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.78236770629883, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.65742874145508, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.27878952026367, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.20678329467773, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.76578903198242, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.04338836669922, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.59512710571289, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.11455154418945, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 50.93225479125977, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 49.02158737182617, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.43813705444336, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0255972222,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 58.46471786499023, 
+                        "location": {
+                            "lat": -28.0255972222, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.025597222214284, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "5": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 59.10009002685547, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 58.0254020690918, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 57.09820175170898, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 57.25079345703125, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.61821746826172, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.26607131958008, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.02902984619141, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.00321578979492, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.01186370849609, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.48591232299805, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 50.82026672363281, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 50.02876663208008, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 49.00590133666992, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.9273796081543, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0249375,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.84127426147461, 
+                        "location": {
+                            "lat": -28.0249375, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024937499992856, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "6": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 58.13929748535156, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.68912887573242, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.06576156616211, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.56342315673828, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.27875518798828, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.57884216308594, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.18003463745117, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.90620040893555, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.46581649780273, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 47.58671951293945, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 48.19774627685547, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 49.67253112792969, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.02556991577148, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0242777778,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.13941192626953, 
+                        "location": {
+                            "lat": -28.0242777778, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.024277777771427, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "7": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 59.65879440307617, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.21335220336914, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 55.64084625244141, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.54912185668945, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.42207717895508, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.84211730957031, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.62674331665039, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.04220962524414, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.35184097290039, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.07841110229492, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 47.15138626098633, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 49.59236145019531, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.9368782043457, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.47237014770508, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0236180555,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.99271392822266, 
+                        "location": {
+                            "lat": -28.0236180555, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02361805555, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "8": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 63.48697280883789, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 57.55320358276367, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.8603630065918, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.01644897460938, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.49941253662109, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.72036361694336, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.16585540771484, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.69036865234375, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.02642059326172, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.60894775390625, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 48.71552276611328, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.04494857788086, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.98685455322266, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.73226547241211, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0229583333,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.56543350219727, 
+                        "location": {
+                            "lat": -28.0229583333, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.02295833332857, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "9": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 67.48686218261719, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 59.56405258178711, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.56377792358398, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.19513320922852, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.67809677124023, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.04952239990234, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.38111877441406, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 53.22317504882812, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.15814590454102, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.56973648071289, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 50.33749771118164, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.24465560913086, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.97841262817383, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.71809005737305, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0222986111,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.43026351928711, 
+                        "location": {
+                            "lat": -28.0222986111, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.022298611107143, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "10": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 70.19438934326172, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 61.04437255859375, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 55.58882522583008, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.35466384887695, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.22690582275391, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.88046646118164, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 57.85175704956055, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.66712188720703, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.56856536865234, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 54.06105804443359, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.50872802734375, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.24465560913086, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.4593391418457, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.2878303527832, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0216388889,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52, 
+                        "location": {
+                            "lat": -28.0216388889, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.021638888885715, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "11": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 70.55685424804688, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 61.0204963684082, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.85047149658203, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.47395706176758, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 57.23523330688477, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 61.14082717895508, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 62.17365646362305, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 61.1469612121582, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 58.86188888549805, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 56.20162582397461, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.97819900512695, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.24465560913086, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.519287109375, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.14641189575195, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0209791667,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52, 
+                        "location": {
+                            "lat": -28.0209791667, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020979166664283, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "12": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 67.85618591308594, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 59.92843246459961, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 57.93861770629883, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 59.41230392456055, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 62.0377311706543, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 66.39688873291016, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 66.6846694946289, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 66.23088836669922, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 65.03459930419922, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 59.20506286621094, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.97819900512695, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.35526657104492, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.47369384765625, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.54788970947266, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0203194444,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.20160675048828, 
+                        "location": {
+                            "lat": -28.0203194444, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.020319444442855, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "13": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 64.89376831054688, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 59.2403678894043, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 59.58295440673828, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 62.93008041381836, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 68.21537017822266, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 72.92223358154297, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 73.14021301269531, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 72.77002716064453, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 71.74221801757812, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 63.81453323364258, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.9969482421875, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 50.97539520263672, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.00376129150391, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.41289901733398, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.0196597222,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.44592666625977, 
+                        "location": {
+                            "lat": -28.0196597222, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019659722221427, 
+            "lon_float": 152.941666667
+        }
+    }, 
+    "14": {
+        "0": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.925&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 65.05404663085938, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.925
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.925
+        }, 
+        "1": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.926190476&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 59.59423065185547, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.926190476
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.9261904762143
+        }, 
+        "2": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.927380952&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 61.90939331054688, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.927380952
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.9273809524286
+        }, 
+        "3": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.928571429&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 67.36685943603516, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.928571429
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.92857142864287
+        }, 
+        "4": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.929761905&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 74.2745132446289, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.929761905
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.92976190485714
+        }, 
+        "5": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.930952381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 80.14217376708984, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.930952381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.93095238107142
+        }, 
+        "6": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.932142857&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 82.00252532958984, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.932142857
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.93214285728573
+        }, 
+        "7": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.933333334&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 80.9378662109375, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.933333334
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.9333333335
+        }, 
+        "8": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.93452381&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 77.66246795654297, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.93452381
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.93452380971428
+        }, 
+        "9": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.935714286&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 68.45820617675781, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.935714286
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.93571428592858
+        }, 
+        "10": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.936904762&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 55.56657028198242, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.936904762
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.93690476214286
+        }, 
+        "11": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.938095238&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 50.43549346923828, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.938095238
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.93809523835714
+        }, 
+        "12": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.939285715&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 51.6047248840332, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.939285715
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.9392857145714
+        }, 
+        "13": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.940476191&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.26612854003906, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.940476191
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.94047619078572
+        }, 
+        "14": {
+            "access_address": "https://maps.googleapis.com/maps/api/elevation/json?locations=-28.019,152.941666667&key=AIzaSyAP1RO-Gk2ig7xsnF-xvAJExuAhTGQJqYA", 
+            "access_result": {
+                "results": [
+                    {
+                        "elevation": 52.44592666625977, 
+                        "location": {
+                            "lat": -28.019, 
+                            "lng": 152.941666667
+                        }, 
+                        "resolution": 152.7032318115234
+                    }
+                ], 
+                "status": "OK"
+            }, 
+            "lat_float": -28.019, 
+            "lon_float": 152.941666667
+        }
+    }
+}
