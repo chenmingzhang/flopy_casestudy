@@ -55,15 +55,17 @@ hds[hds==1e-30]=np.nan
 fig = plt.figure(figsize=(8, 8))
 ax = fig.add_subplot(1, 1, 1, aspect='equal')
 fpth = os.path.join('ex6.mpend')
-modelmap = flopy.plot.ModelMap(model=ms, layer=0)   # perhapse first layer is needed. 
-quadmesh = modelmap.plot_ibound()
+modelmap = flopy.plot.ModelMap(model=ms)   # perhapse first layer is needed. 
+#quadmesh = modelmap.plot_ibound()
 linecollection = modelmap.plot_grid()
-contour_set = modelmap.contour_array(hds,levels=np.arange(np.nanmin(hds),np.nanmax(hds),0.5), colors='b')
+#contour_set = modelmap.contour_array(hds,levels=np.arange(np.nanmin(hds),np.nanmax(hds),0.5), colors='b')
+#contour_set = modelmap.contour_array(hds,levels=np.arange(np.nanmin(hds),np.nanmax(hds),1), colors='b')
 #contour_set = modelmap.contour_array(hds,levels=np.arange(30,np.nanmax(hds),2), colors='b')
-#contour_set = modelmap.contour_array(hds,levels=np.array([0,10,20,30,40,41,42,43,44,45,46,47]), colors='b')
+contour_set = modelmap.contour_array(hds,levels=np.array([19,25,30,35,38,40,41,41.5,42,42.5,43,43.5,44,44.5,45,45.5,46,46.5,47]), colors='b')
 #plt.clabel(contour_set, inline=1, fontsize=14)
 plt.clabel(contour_set, inline=1, fontsize=14)
-modelmap.plot_endpoint(well_epd, direction='starting', colorbar=True,vmin=0,vmax=36500)
+#plt.clabel(contour_set, inline=1, fontsize=14,text='Travel time to the river (days)')
+modelmap.plot_endpoint(well_epd, direction='starting', colorbar=True,vmin=0,vmax=36500,colorbar_label='Travel time to Logan river (days)')
 # first we do forward tracking, then find the end point from starting
 #quadmesh.set_clim(vmin=0, vmax=15)
 ax.set_xlabel('X (m)')
@@ -108,6 +110,7 @@ for i in np.arange(0,8000,20):
     modelmap.plot_pathline(well_pathlines, layer='all', colors='red');
 contour_set = modelmap.contour_array(hds,levels=np.arange(np.nanmin(hds),np.nanmax(hds),0.5), colors='b')
 plt.clabel(contour_set, inline=1, fontsize=14)
+g.plot(ax, a=ibound_ay, masked_values=[0], edgecolor='none', cmap='jet')
 #modelmap.plot_pathline(well_pathlines, layer='all', colors='red');
 ax.set_xlabel('X (m)')
 ax.set_ylabel('Y (m)')

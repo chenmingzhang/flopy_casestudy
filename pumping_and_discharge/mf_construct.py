@@ -12,13 +12,17 @@ h0 = 80
 h1 = 5
 #hk=10
 #vka=10
-hk=0.1
-vka=0.1
+hk=0.2
+vka=0.2
 sy=0.20
 ss=0.0001
 top = h0
 botm = np.zeros((nlay, nrow, ncol), dtype=np.float32)
-botm[0, :, :] = -10.
+# one of the issues in using constant head boundary condition for river is that the depth of the river is dependent on
+# the thickness of the river cell, but in fact, the river could be just flowing above the surface.
+botm[0, :, :] = -30.
+
+#botm[0, :, :] = -30.
 laytyp = np.ones(nlay) 
 nper = 1  # a single value
 perlen =[20000]  # in days i guess
@@ -26,7 +30,7 @@ perlen =[20000]  # in days i guess
 nstp = [10]
 steady=[True]
 modelname='gelita'
-recharge=0.0001 # get data close to 
+recharge=0.00009 # get data close to 
 #recharge=0.01
 
 ## get the surface elevation from 2D interpolation
@@ -212,7 +216,8 @@ rch=flopy.modflow.ModflowRch(ms,rech=recharge)
 # this is my way to get the index location of the well
 well_row_col=np.where(ibound_mtx==7)
 #pumping_rate_m3Pday=-2000
-pumping_rate_m3Pday=-1500
+pumping_rate_m3Pday=-200
+#pumping_rate_m3Pday=0
 wel = flopy.modflow.ModflowWel(ms, stress_period_data=[0,well_row_col[0][0],well_row_col[1][0],pumping_rate_m3Pday])
 
 ms.write_input()

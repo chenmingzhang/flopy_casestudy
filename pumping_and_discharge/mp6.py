@@ -57,7 +57,7 @@ modelmap = flopy.plot.ModelMap(model=ms, layer=0)   # perhapse first layer is ne
 quadmesh = modelmap.plot_ibound()
 linecollection = modelmap.plot_grid()
 contour_set = modelmap.contour_array(hds,levels=np.arange(np.min(hds),np.max(hds),0.5), colors='b')
-plt.clabel(contour_set, inline=1, fontsize=14)
+plt.clabel(contour_set, inline=1, fontsize=14,text='Travel time to the river (days)')
 modelmap.plot_endpoint(well_epd, direction='starting', colorbar=True)
 fig.show()
 
