@@ -54,7 +54,8 @@ dis = flopy.modflow.ModflowDis(m, nlay, nrow, ncol, nper=1, delr=delr,
 # this is how it works (nlay, nrow_which is 1 in this case, ncol) 
 ibound = np.ones((nlay, nrow, ncol), dtype=np.int32)
 ibound[:, :, -1] = -1    # fix the bottom boundary value
-bas = flopy.modflow.ModflowBas(m, ibound, 0)  # the last 0 is the started head
+starthead = 0
+bas = flopy.modflow.ModflowBas(m, ibound, starthead)  # the last 0 is the started head
 
 # Add LPF package to the MODFLOW model
 lpf = flopy.modflow.ModflowLpf(m, hk=hk, vka=hk, ipakcb=53)
@@ -81,6 +82,8 @@ for k in range(nlay):
     ssm_sp1.append([k, 0, ncol - 1, 35., itype['BAS6']])   # background concentration from right
 wel_data[0] = wel_sp1   
 ssm_data[0] = ssm_sp1
+
+#well function
 wel = flopy.modflow.ModflowWel(m, stress_period_data=wel_data)
 
 # Create the basic MT3DMS model data
@@ -111,6 +114,12 @@ ssm = flopy.mt3d.Mt3dSsm(m, stress_period_data=ssm_data)
 # Create the SEAWAT model data
 vdf = flopy.seawat.SeawatVdf(m, iwtable=0, densemin=0, densemax=0,
                              denseref=1000., denseslp=0.7143, firstdt=1e-3)
+# denseslp formerly referred to as DENSESLP (Langevin and others, 2003), is the slope of the linear equation of state that relates fluid density to solute concentration.
+# denseref is the fluid density at the reference concentration, temperature, and pressure. For most simulations, DENSEREF is specified as the density of freshwater at 25 degrees C and at a reference pressure of zero.
+# firstdt is the length of the first transport timestep used to start the simulation if both of the following two condi- tions are met: 1. The IMT Process is active, and 2. transport timesteps are calculated as a function of the user-specified Courant number (the MT3DMS input variable, PERCEL, is greater than zero).
+# densemax s the maximum fluid density. If the resulting density value calculated with the equation of state is greater than DENSEMAX, the density value is set to DENSEMAX. If DENSEMAX = 0, the computed fluid density is not limited by DENSEMAX (this is the option to use for most simulations). If DENSEMAX > 0, a computed fluid density larger than DENSEMAX is automatically reset to DENSEMAX.
+# iwtable -- is a flag used to activate the variable-density water-table corrections (Guo and Langevin, 2002, eq. 82). If IWTABLE = 0, the water-table correction will not be applied. If IWTABLE > 0, the water-table correction will be applied.
+
 
 # Write the input files
 m.write_input()
@@ -183,4 +192,8 @@ outfig = os.path.join(workspace, 'henry_heads.{0}'.format(fext))
 fig.savefig(outfig, dpi=300)
 print('created...', outfig)
 
+# TO190320 
+# A small summary about the density driven flow from seawat and sutra
+# seawat simulates 
+# sutra calculates Pressure in boundary condition, 
 
