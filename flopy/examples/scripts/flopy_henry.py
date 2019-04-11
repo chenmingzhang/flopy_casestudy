@@ -195,5 +195,8 @@ print('created...', outfig)
 # TO190320 
 # A small summary about the density driven flow from seawat and sutra
 # seawat simulates 
-# sutra calculates Pressure in boundary condition, 
+# SUTRA calculates Pressure in Rechards equation, and pressure has included the density effects as pressure = pressure head x fluid density x gravity. 
+# this is the reason why the boundary condition of henry problem in sutra needs to incorporate clearly the density effects (i.e., density is 1025kg/m3). 
+# also note that AT UNSATURATED CONDITION, ONE SHOULD NOT INCORPORATE DENSITY EFFECTS, THE EASIST WAY IS TO SPECIFY THE ALPHA WITH A UNIT OF Pa, and the density is 1000.
+# MODFLOW calculates hydraulic heads, and hydraulic heads does not affected by fluid density, which is the reason why the start head in henry problem can be set as 0 all the way down. 
 

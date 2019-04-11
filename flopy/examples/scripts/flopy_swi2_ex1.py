@@ -11,6 +11,7 @@ import flopy
 import matplotlib.pyplot as plt
 
 # --modify default matplotlib settings
+# TO190321 this is the example 2 of seawater intrusion package (SWI2) see manual for more details
 updates = {'font.family': ['Univers 57 Condensed', 'Arial'],
            'mathtext.default': 'regular',
            'pdf.compression': 0,
