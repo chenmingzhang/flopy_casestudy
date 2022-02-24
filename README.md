@@ -4,6 +4,10 @@
 
 ```
 conda install latlon3
+pip install mfpymake
+D:\projects\pymake\examples>python make_gridgen.py
+conda install -c conda-forge pyshp
+conda install shapely
 
 need to change one lat_lon to latlon
 in file 
